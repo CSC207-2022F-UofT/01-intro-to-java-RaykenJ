@@ -155,7 +155,7 @@ public class Basics {
             return current_sum;
         }
 
-        for (int i = 0; i < len; i += 2){
+        for (int i = 1; i < len; i += 2){
             current_sum += arr[i];
         }
         return current_sum;
